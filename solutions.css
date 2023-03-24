@@ -130,3 +130,72 @@
 
 /* Esercizio 12 */
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: slidetop 1s linear;
+}
+
+@keyframes slidetop {
+    0%{
+        left: 10%;
+        
+    }
+
+    50%{
+        left: 30%;
+    }
+    
+    100%{
+        left: 60%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: slidebottom 1s linear;
+}
+
+@keyframes slidebottom {
+    0%{
+        right: 10%;
+        
+    }
+
+    50%{
+        right: 30%;
+    }
+    
+    100%{
+        right: 60%;
+    }
+}
+
+/* Esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+
+    animation: slidea 1s linear;
+
+}
+
+@keyframes slidea {
+    0%{
+        left: 10%;
+        right: 10%;
+        
+    }
+
+    25%{
+        left: 20%;
+        right: 20%;
+    }
+
+    50%{
+        left: 30%;
+        right: 30%;
+    }
+    
+    100%{
+        left: 60%;
+        right: 60%;
+    }
+}
+    
