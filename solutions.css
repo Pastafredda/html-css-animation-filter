@@ -50,3 +50,83 @@
     transform:scale(0.5)
 }
 
+/* Esercizio 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+
+}
+
+/* Esercizio 7 manca l'immagine, dalla descrizione comunque dovrebbe essere così
+
+.ex-7-img{
+    transition: all 1s ease;
+
+}
+
+.ex-7-img:hover{
+    filter: blur(20px) grayscale(80%);
+} */
+
+/* Esercizio 8 */
+
+.ex-8-img{
+    transition: all 2s ease;
+
+}
+
+.ex-8-img:hover{
+    filter: grayscale(70%);
+    border-radius: 20px;
+}
+
+/* Esercizio 9 */
+
+.ex-9-img{
+    transition: all 2s ease;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(80%);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+/* Esercizio 10 */
+.ex-10-icon{
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+        }
+    
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation: load 3s linear;
+}
+
+@keyframes load {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    90%{
+        transform: rotate(300deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+/* Esercizio 12 */
+
